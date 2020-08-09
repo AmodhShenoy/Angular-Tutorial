@@ -14,3 +14,13 @@ body{
     margin: 20px;
     display:flex;
 }
+.flex-spacer{
+    flex: 1 1 auto;
+}
+
+.highlight{
+    background-color: $background-pale;
+    border: 1px solid #2e2e1f;
+    z-index: 1;
+    transform: scale(1.01);
+}
